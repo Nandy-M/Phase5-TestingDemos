@@ -12,10 +12,10 @@ public class TestAngApp {
 		System.setProperty("webdriver.chrome.driver", "C:\\MyDownloads\\chromedriver_win32\\chromedriver.exe");
 		webdriver = new ChromeDriver();
 
-		// clickAccountsButton(webdriver);
-		// addProductToShoppingCart(webdriver,"ecomm","headphones","2");
+		//clickAccountsButton(webdriver);
+		addProductToShoppingCart(webdriver,"ecomm","headphones","2");
 		//addProductToShoppingCartXPath(webdriver, "ecomm", "xpath", "3");
-		addPosts(webdriver, "tforms", "x@y.com", "");
+		//addPosts(webdriver, "tforms", "x@y.com", "");
 		// webdriver.quit();
 
 	}
