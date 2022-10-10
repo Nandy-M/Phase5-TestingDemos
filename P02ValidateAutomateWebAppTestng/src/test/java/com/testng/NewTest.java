@@ -31,6 +31,7 @@ public class NewTest {
 
 	@Test(priority = 3)
 	private void addDetailsToLoginForm() throws InterruptedException {
+		
 
 		driver.findElement(By.cssSelector(".topnav > a:nth-child(2)")).click();
 		driver.findElement(By.xpath("//*[@id=\"fname\"]")).sendKeys("Nandhini");

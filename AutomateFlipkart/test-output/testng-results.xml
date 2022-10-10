@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-10T23:42:59 IST" name="Default suite" finished-at="2022-10-10T23:43:54 IST" duration-ms="55051">
+    <groups>
+      <group name="Chrome">
+        <method signature="NewTest.LaunchChrome()[pri:0, instance:com.phase5.NewTest@272ed83b]" name="LaunchChrome" class="com.phase5.NewTest"/>
+        <method signature="NewTest.f()[pri:0, instance:com.phase5.NewTest@272ed83b]" name="f" class="com.phase5.NewTest"/>
+      </group> <!-- Chrome -->
+      <group name="Firefox">
+        <method signature="NewTest.LaunchFirefox()[pri:0, instance:com.phase5.NewTest@272ed83b]" name="LaunchFirefox" class="com.phase5.NewTest"/>
+        <method signature="NewTest.firefox()[pri:0, instance:com.phase5.NewTest@272ed83b]" name="firefox" class="com.phase5.NewTest"/>
+      </group> <!-- Firefox -->
+    </groups>
+    <test started-at="2022-10-10T23:42:59 IST" name="Default test" finished-at="2022-10-10T23:43:54 IST" duration-ms="55051">
+      <class name="com.phase5.NewTest">
+        <test-method signature="LaunchChrome()[pri:0, instance:com.phase5.NewTest@272ed83b]" started-at="2022-10-10T23:42:59 IST" name="LaunchChrome" finished-at="2022-10-10T23:43:01 IST" duration-ms="2020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchChrome -->
+        <test-method signature="LaunchFirefox()[pri:0, instance:com.phase5.NewTest@272ed83b]" started-at="2022-10-10T23:43:01 IST" name="LaunchFirefox" finished-at="2022-10-10T23:43:05 IST" duration-ms="4017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchFirefox -->
+        <test-method signature="f()[pri:0, instance:com.phase5.NewTest@272ed83b]" started-at="2022-10-10T23:43:05 IST" name="f" finished-at="2022-10-10T23:43:23 IST" depends-on-methods="com.phase5.NewTest.LaunchChrome" duration-ms="18214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="firefox()[pri:0, instance:com.phase5.NewTest@272ed83b]" started-at="2022-10-10T23:43:23 IST" name="firefox" finished-at="2022-10-10T23:43:54 IST" depends-on-methods="com.phase5.NewTest.LaunchFirefox" duration-ms="30743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firefox -->
+      </class> <!-- com.phase5.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
